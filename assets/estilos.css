@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.carousel-caption{
+    position: absolute;
+    bottom: 15rem;
+    left: 35rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: right;
+    width: 55%;
+}
+
+.height-carrusel{
+    height: 100vh;
+}
+
+.width-card{
+    width: 100.6%;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.contact-form {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.footer {
+    background: rgb(6,33,61);
+    background: linear-gradient(90deg, rgba(6,33,61,1) 0%, rgba(9,64,121,1) 29%, rgba(0,125,164,1) 100%);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

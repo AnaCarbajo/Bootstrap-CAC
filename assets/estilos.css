@@ -40,10 +40,6 @@ body {
     filter:brightness(0.4);
 }
 
-/* .width-card{
-    width: 100.6%;
-} */
-
 .card-m{
     padding: 10px 3px;
 }
@@ -51,6 +47,10 @@ body {
 .section {
     padding-bottom: 40px;
 
+}
+
+.mt-100{
+    margin-top: 120px;
 }
 
 .pr-0{
@@ -79,8 +79,8 @@ body {
     width: 100%;
 }
 
-.row{
-    margin-right: 0px;
+div .row{
+    padding-right: 0px;
  }
 
 .col{
@@ -94,6 +94,20 @@ body {
  .container{
     padding-right: 0px;
  }
+
+.boton-verde{
+    background-color: rgb(104, 192, 69);
+    color: white;
+}
+
+.texto-chico {
+    font-size: 0.8rem;
+}
+
+.margenForm {
+    margin-left: 12rem; 
+    margin-right: 12rem; 
+}
 
 /* Estilos Responsive */
 
@@ -112,6 +126,10 @@ body {
         bottom: 30%;
         width: 40%;
     } 
+    .margenForm {
+        margin-left: 0rem; 
+        margin-right: 0rem; 
+    }
 }
 
 @media (min-width: 350px) and (max-width: 500px){
@@ -124,12 +142,35 @@ body {
             left: 20%;
             width: 60%;
             bottom: 15%;
-    }    
+    }  
+    
+    .margenForm {
+        margin-left: 0rem; 
+        margin-right: 0rem; 
+    }
+
+    .col-md-6{
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 767px){
+    .margenForm {
+        margin-left: 0rem; 
+        margin-right: 0rem; 
+    }
+
+    .col-md-6{
+        margin-bottom: 5px;
+    }
+
 }
 
 
 @media (min-width: 150px){
     .d-md-block {
         display: block!important;
-    }    
+    }
+        
 }
